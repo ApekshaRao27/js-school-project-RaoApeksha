@@ -3,39 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Timeline App</title>
 </head>
 <body>
-
+<div id="container">
     <header>
          <div class="logo-title">
         <img src="logo.png" alt="Logo" width="50px">
         <h1>Timeline App</h1>
         </div>
-        <label class="theme-toggle">
+        <label>
          <input type="checkbox" id="themeSwitch">
-          Toggle Theme
+         <span class="theme-toggle"></span>
         </label>
     </header>
+
+    
     <nav>
        <!--containers for placeholders and filters-->
+    <div class="timeline-nav">
+    <div class="timeline-line"></div>
+   <span class="year">1920<span class="dot"></span></span>
+    <span class="year">1940<span class="dot"></span></span>
+    <span class="year">1960<span class="dot"></span></span>
+    <span class="year">1980<span class="dot"></span></span>
+    <span class="year">2000<span class="dot"></span></span>
+
+    </div>
     </nav>
+
     <main>
         <section id="timeline">
             <article>
                 <h2>1977</h2>
                 <h3>Introduction of the First Personal Computer</h3>
                <figure>
-                <img src="image.png" alt="First Personal computer" width="300px">
+                <img src="image.png" alt="First Personal computer" style="width:100%; max-height:400px;">
                 <figcaption>The first personal computer, introduced in 1977, revolutionized the way people interacted with computers. These early systems were more affordable, paving the way for the digital age.</figcaption>
                </figure>
-          <button>Learn More</button>
+               <button class="learn-more">Learn More</button>
             </article>
         </section>
     </main>
 
-    <div id="modal">
-      <!--For future popups-->
-    </div>
+    <div id="modal" class="active"> 
+  <div class="modal-content">
+    <h2>More Info</h2>
+    <p>In 1977, the first widely recognized personal computers (PCs) were introduced, marking a major 
+        milestone in computing history. Unlike earlier large mainframe or minicomputers that were expensive
+     and required specialized knowledge, these early PCs were designed for individual use affordable, accessible,
+      and practical for homes, schools, and small businesses.</p>
+    <button class="close-btn">close</button>
+  </div>
+</div>
+
+</div>
+
+<script>
+const modal = document.getElementById('modal');
+const openBtn = document.querySelector('.learn-more');
+const closeBtn = document.querySelector('#modal .close-btn'); 
+
+openBtn.addEventListener('click', () => {
+  modal.classList.add('active'); 
+});
+
+closeBtn.addEventListener('click', () => {
+  modal.classList.remove('active'); 
+});
+</script>
+
 </body>
 </html>
