@@ -7,3 +7,11 @@ It includes:
 - Main section for timeline event markers.
 - Modal placeholder for future pop-ups.
 - Semantic HTML structure ready for styling and interactivity later stages.
+## Stage 2:-CSS Structure
+This includes:-
+- Responsive layout using Flexbox
+- Styling for :
+  - event markers(years,dot and line)
+  - header and buttons
+  - modal placeholder
+- Responsive design using media queries to support various screen sizes.
