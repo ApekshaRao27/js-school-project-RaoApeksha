@@ -15,3 +15,11 @@ This includes:-
   - header and buttons
   - modal placeholder
 - Responsive design using media queries to support various screen sizes.
+
+## Stage 3:-Adding Javascript
+- This includes:-
+ - Fetching & parsing event data from events.json
+ - Rendering event items dynamically inside #timeline
+ - Attaching click handlers to open #modal with event details
+ - Close functionality for modal 
+ - Dynamic content update for modal (title, description, year, image, category)

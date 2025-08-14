@@ -1,0 +1,64 @@
+[{"year": 1969,
+  "title": "Moon Landing by Apollo 11",
+  "description": "Neil Armstrong and Buzz Aldrin became the first humans to walk on the Moon on July 20, marking a historic achievement in space exploration.",
+  "imageURL": "image1.png",
+  "moreInfo": "On July 20, 1969, NASA's Apollo 11 mission successfully landed humans on the Moon. Neil Armstrong became the first person to walk on its surface, followed by Buzz Aldrin, while Michael Collins orbited above in the command module.",
+  "category": "History"
+},
+{
+    "year": 1977,
+    "title": "Introduction of the First Personal Computer",
+    "description": "The first personal computer, introduced in 1977, revolutionized the way people interacted with computers. These early systems were more affordable, paving the way for the digital age.",
+    "imageURL": "image.png",
+    "moreInfo": "In 1977, the first widely recognized personal computers (PCs) were introduced, marking a major milestone in computing history. Unlike earlier large mainframe or minicomputers that were expensive and required specialized knowledge, these early PCs were designed for individual use affordable, accessible, and practical for homes, schools, and small businesses.",
+    "category": "Technology"
+},
+  {
+    "year": 1995,
+    "title": "Java Programming Released",
+    "description": "Sun Microsystems releases Java, revolutionizing cross-platform software development.",
+    "imageURL": "java.png",
+    "category": "Technology",
+    "moreInfo": "Java, developed by Sun Microsystems, was officially released in 1995. Designed to be platform-independent with its 'write once, run anywhere' capability, it quickly became one of the most popular programming languages for web and enterprise applications."
+  },
+  {
+    "year": 2004,
+    "title": "Facebook Launch",
+    "description": "Mark Zuckerberg and his college roommates launched Facebook, which went on to become one of the largest social media platforms in the world.",
+    "imageURL": "facebook.png",
+     "moreInfo": "Facebook was launched on February 4, 2004, initially as a social networking site for Harvard students. It quickly expanded to other universities and eventually to the general public, revolutionizing how people connect and share information online.",
+      "category":"Technology"
+    },
+   {
+    "year": 2007,
+    "title": "First iPhone Released",
+    "description": "Apple introduces the first iPhone, merging phone, music player, and internet into one device.",
+    "imageURL": "iphone.png",
+    "moreInfo": "Apple released the first iPhone in 2007, revolutionizing the smartphone industry. It combined a touchscreen interface, internet browsing, and multimedia features into a single sleek device, setting a new standard for mobile technology.",
+    "category": "Technology"
+  },
+  {
+    "year": 2012,
+    "title": "Curiosity Rover Lands on Mars",
+    "description": "NASA’s Curiosity rover successfully landed on Mars, beginning its mission to explore the planet's surface and geology.",
+    "imageURL": "rover.png",
+    "moreInfo": "The Curiosity rover, part of NASA's Mars Science Laboratory mission, landed on Mars on August 6, 2012. Its primary goal is to explore the Gale Crater and assess whether Mars ever had the conditions to support microbial life.",
+    "category": "Space Exploration"
+},
+  {
+    "year": 2020,
+    "title": "Global COVID-19 Pandemic",
+    "description": "The COVID-19 pandemic disrupted life worldwide, leading to lockdowns, remote work, and the rapid development of vaccines.",
+    "imageURL": "covid.png",
+    "moreInfo": "The COVID-19 pandemic, caused by the novel coronavirus SARS-CoV-2, was first identified in December 2019. It led to widespread illness, death, and significant changes to daily life, including remote work and online education.",
+    "category": "Health"
+},
+  {
+    "year": 2024,
+    "title": "NASA Artemis I Moon Mission",
+    "description": "NASA's Artemis program marked a new era of lunar exploration with plans to return astronauts to the Moon and prepare for Mars missions.",
+    "imageURL": "nasa.png",
+    "moreInfo": "NASA's Artemis I mission, launched on November 16, 2021, is an uncrewed test flight aimed at demonstrating the capabilities of the Space Launch System (SLS) and the Orion spacecraft. It is the first step in returning humans to the Moon and eventually sending astronauts to Mars.",
+    "category": "Space Exploration"
+  }
+]
