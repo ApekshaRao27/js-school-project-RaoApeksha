@@ -23,3 +23,13 @@ This includes:-
  - Attaching click handlers to open #modal with event details
  - Close functionality for modal 
  - Dynamic content update for modal (title, description, year, image, category)
+
+## Stage 4:- Introducing TypeScript & Build Setup
+- This includes:  
+  - Initializing TypeScript with tsconfig.json
+  - Defining interfaces/types for event data in types.ts  
+  - Using ES modules with separate files (fetcher.ts, renderer.ts, modal.ts,etc)  
+  - Compiling TypeScript → JavaScript into dist/folder  
+  - Updating index.html to use compiled dist/index.js  
+  - Ensuring browser compatibility with ES6 module output  
+  - Added .gitignore file to exclude node modules
