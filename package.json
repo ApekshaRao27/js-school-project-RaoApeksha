@@ -1,0 +1,16 @@
+{
+  "name": "js-school-project-raoapeksha",
+  "version": "1.0.0",
+  "description": "This is the static skeleton of the Timeline App.  \r It includes:\r - Header with logo and theme toggle button.\r - Navigation placeholder for filters.\r - Main section for timeline event markers.\r - Modal placeholder for future pop-ups.\r - Semantic HTML structure ready for styling and interactivity later stages.\r ## Stage 2:-CSS Structure\r This includes:-\r - Responsive layout using Flexbox\r - Styling for :\r   - event markers(years,dot and line)\r   - header and buttons\r   - modal placeholder\r - Responsive design using media queries to support various screen sizes.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csstype": "^3.1.3",
+    "typescript": "^5.9.2"
+  }
+}
