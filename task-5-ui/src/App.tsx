@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Timeline from "./components/Timeline";
 import EventModal from "./components/EventModal";
 import eventsData from "./data/events.json";
-import type { EventData } from "./types";
+import type { EventData } from "./components/types";
 
 function App() {
   const events: EventData[] = eventsData;
@@ -35,6 +35,7 @@ function App() {
       <div className="event-content my-4">
         <h2>{events[activeEvent].title}</h2>
         <p>{events[activeEvent].description}</p>
+    
         <button
           className="btn btn-primary"
           onClick={() => setModalEvent(activeEvent)}

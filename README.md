@@ -33,3 +33,22 @@ This includes:-
   - Updating index.html to use compiled dist/index.js  
   - Ensuring browser compatibility with ES6 module output  
   - Added .gitignore file to exclude node modules
+ 
+## Stage 5:- 
+- A React + TypeScript timeline application built with Vite and Bootstrap.
+- React + TypeScript setup with Vite.
+- Simple Bootstrap styling 
+- Dark/light theme toggle (switch between modes).
+- Loads events from events.json.
+- Maps over events and renders EventMarker for each year/title.
+- Displays each event as a clickable dot on the timeline.
+- Opens on click of an event marker.
+- Uses useState and useEffect to manage modal visibility and theme toggle.
+
+## Stage 6:-
+- Semantic roles: banner, switch, nav, aria-labelledby, aria-describedby.
+- Timeline uses aria-current="step" and labeled buttons for screen readers.
+- Modal traps focus while open; returns focus on close.
+- All interactive elements are keyboard-accessible.
+- Bootstrap colors meet WCAG AA contrast standards.
+- Headings use semantic tags (h1, h2); focus outlines added for key buttons.
