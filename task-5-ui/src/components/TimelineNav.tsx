@@ -1,4 +1,4 @@
-import type { EventData } from "../types";
+import type { EventData } from "./types";
 
 interface Props {
   events: EventData[];
@@ -7,9 +7,23 @@ interface Props {
 
 function TimelineNav({ events, onSelect }: Props) {
   return (
-    <h1></h1>
+    <nav aria-label="Timeline navigation">
+      <ul className="pagination justify-content-center">
+        {events.map((event, index) => (
+          <li key={index} className="page-item">
+            <button
+              type="button"
+              className="page-link"
+              onClick={() => onSelect(index)}
+              aria-label={`Go to year ${event.year}`}
+            >
+              {event.year}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }
 
 export default TimelineNav;
-
